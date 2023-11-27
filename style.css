@@ -1,13 +1,13 @@
 .a {
   display: flex;
   flex-direction: column;
+  max-width: 1440px;
   height: 4106px;
   align-items: flex-start;
   gap: 64px;
-  padding: 96px;
+  padding: 86px;
   position: relative;
   background-color: #ffffff;
-  overflow: hidden;
 }
 
 .a .frame {
@@ -15,7 +15,6 @@
   width: 1268px;
   gap: 46px;
   flex: 0 0 auto;
-  margin-right: -20px;
   flex-direction: column;
   align-items: flex-start;
   position: relative;
@@ -30,23 +29,22 @@
 
 .a .text-wrapper {
   position: relative;
-  width: 1068px;
+  width: 1268px;
   height: 278px;
-  font-family: "Inter", Helvetica;
+  font-family: "Inter Display-Regular", Helvetica;
   font-weight: 400;
   color: #1a1a1a;
   font-size: 128px;
-  letter-spacing: 0;
-  line-height: normal;
+  letter-spacing: -5.12px;
+  line-height: 128px;
 }
 
 .a .div {
   display: flex;
-  width: 1561px;
+  width: 1268px;
   gap: 64px;
   padding: 64px 0px 0px;
   flex: 0 0 auto;
-  margin-right: -313px;
   flex-direction: column;
   align-items: flex-start;
   position: relative;
@@ -56,27 +54,28 @@
   position: relative;
   width: fit-content;
   margin-top: -1px;
-  font-family: "Inter", Helvetica;
+  font-family: "Inter Display-Medium", Helvetica;
   font-weight: 500;
   color: #000000;
-  font-size: 96px;
-  letter-spacing: -4.8px;
+  font-size: 64px;
+  letter-spacing: -2.24px;
   line-height: normal;
 }
 
 .a .row {
+  height: 673px;
+  justify-content: space-between;
   display: flex;
-  width: 1546px;
+  width: 1268px;
   align-items: flex-start;
-  gap: 138px;
   position: relative;
-  flex: 0 0 auto;
 }
 
 .a .frame-2 {
-  display: flex;
-  width: 445px;
+  display: inline-flex;
+  height: 619px;
   gap: 24px;
+  flex: 0 0 auto;
   flex-direction: column;
   align-items: flex-start;
   position: relative;
@@ -84,9 +83,9 @@
 
 .a .text-wrapper-3 {
   position: relative;
-  width: fit-content;
+  width: 380px;
   margin-top: -1px;
-  font-family: "Inter", Helvetica;
+  font-family: "Inter Variable-SemiBold", Helvetica;
   font-weight: 600;
   color: #000000;
   font-size: 32px;
@@ -96,11 +95,12 @@
 
 .a .nouns-nouns {
   position: relative;
-  width: 445px;
+  width: 380px;
+  height: 556px;
   font-family: "Inter", Helvetica;
   font-weight: 400;
   color: #000000;
-  font-size: 32px;
+  font-size: 18px;
   letter-spacing: 0;
   line-height: normal;
 }
@@ -113,13 +113,17 @@
   font-family: "Inter", Helvetica;
   font-weight: 400;
   color: #000000;
-  font-size: 32px;
+  font-size: 18px;
   letter-spacing: 0;
 }
 
-.a .frame-3 {
+.a .text-wrapper-5 {
+  font-weight: 700;
+}
+
+.a .div-2 {
   display: flex;
-  width: 417px;
+  width: 380px;
   gap: 24px;
   flex-direction: column;
   align-items: flex-start;
@@ -128,46 +132,136 @@
 
 .a .p {
   position: relative;
-  width: 417px;
+  width: 378px;
   font-family: "Inter", Helvetica;
   font-weight: 400;
   color: #000000;
-  font-size: 32px;
+  font-size: 18px;
   letter-spacing: 0;
   line-height: normal;
 }
 
-.a .text-wrapper-5 {
+.a .text-wrapper-6 {
   position: relative;
-  width: fit-content;
-  font-family: "Inter", Helvetica;
-  font-weight: 400;
+  width: 378px;
+  font-family: "Inter Variable-SemiBold", Helvetica;
+  font-weight: 600;
   color: #000000;
   font-size: 32px;
   letter-spacing: 0;
   line-height: normal;
 }
 
-.a .frame-4 {
+.a .simple-sentences {
+  position: relative;
+  width: 380px;
+  font-family: "Inter", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 18px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.a .frame-3 {
   display: flex;
-  width: 1555px;
+  width: 1268px;
   gap: 64px;
   flex: 0 0 auto;
-  margin-right: -307px;
   flex-direction: column;
   align-items: flex-start;
   position: relative;
 }
 
-.a .row-2 {
-  display: inline-flex;
-  align-items: flex-start;
-  gap: 138px;
+.a .text-wrapper-7 {
   position: relative;
-  flex: 0 0 auto;
+  width: fit-content;
+  margin-top: -1px;
+  font-family: "Inter Display-Medium", Helvetica;
+  font-weight: 500;
+  color: #000000;
+  font-size: 64px;
+  letter-spacing: -3.2px;
+  line-height: normal;
 }
 
-.a .frame-5 {
+.a .row-2 {
+  justify-content: space-between;
+  flex: 0 0 auto;
+  display: flex;
+  width: 1268px;
+  align-items: flex-start;
+  position: relative;
+}
+
+.a .text-wrapper-8 {
+  width: fit-content;
+  margin-top: -1px;
+  font-family: "Inter Variable-Medium", Helvetica;
+  font-weight: 500;
+  font-size: 32px;
+  letter-spacing: -1.6px;
+  position: relative;
+  color: #000000;
+  line-height: normal;
+}
+
+.a .the-present-simple {
+  position: relative;
+  width: 380px;
+  font-family: "Inter Variable-Regular", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 18px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.a .text-wrapper-9 {
+  font-family: "Inter Variable-Regular", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 18px;
+  letter-spacing: 0;
+}
+
+.a .text-wrapper-10 {
+  font-family: "Inter Variable-Bold", Helvetica;
+  font-weight: 700;
+}
+
+.a .div-3 {
+  position: relative;
+  width: 372px;
+  font-family: "Inter Variable-Regular", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 18px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.a .text-wrapper-11 {
+  position: relative;
+  width: fit-content;
+  font-family: "Inter Display-Medium", Helvetica;
+  font-weight: 500;
+  color: #000000;
+  font-size: 64px;
+  letter-spacing: -3.2px;
+  line-height: normal;
+}
+
+.a .row-3 {
+  gap: 138px;
+  flex: 0 0 auto;
+  display: flex;
+  width: 1268px;
+  align-items: flex-start;
+  position: relative;
+}
+
+.a .frame-4 {
   display: inline-flex;
   gap: 24px;
   flex: 0 0 auto;
@@ -176,7 +270,7 @@
   position: relative;
 }
 
-.a .text-wrapper-6 {
+.a .text-wrapper-12 {
   position: relative;
   width: fit-content;
   margin-top: -1px;
@@ -188,7 +282,7 @@
   line-height: normal;
 }
 
-.a .div-2 {
+.a .usage-the-will {
   position: relative;
   width: 448px;
   font-family: "Inter", Helvetica;
@@ -199,11 +293,15 @@
   line-height: normal;
 }
 
-.a .text-wrapper-7 {
-  font-weight: 700;
+.a .text-wrapper-13 {
+  font-family: "Inter", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 32px;
+  letter-spacing: 0;
 }
 
-.a .div-3 {
+.a .usage-the-present {
   position: relative;
   width: 404px;
   font-family: "Inter", Helvetica;
@@ -214,7 +312,8 @@
   line-height: normal;
 }
 
-.a .frame-6 {
+.a .frame-5 {
   position: relative;
   flex: 0 0 auto;
+  margin-right: -272px;
 }
